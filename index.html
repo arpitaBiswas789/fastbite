@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>FastBite - Online Fast Food Store</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FastBite Menu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <h1>🍔 FastBite</h1>
-    <p class="tag">Delicious fast food delivered to your door</p>
-    <nav class="nav">
+  <header>
+    <h1>🍔 FastBite Menu</h1>
+    <nav>
       <a href="index.html">Home</a>
       <a href="menu.html">Menu</a>
       <a href="cart.html">Cart</a>
@@ -18,31 +17,40 @@
     </nav>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <h2>Fast, Fresh & Tasty</h2>
-      <p>Order burgers, pizza, fries and drinks online. Quick delivery for students and office-goers.</p>
-      <a class="btn" href="menu.html">Order Now</a>
-    </section>
+  <main class="menu">
+    <!-- Burger -->
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/1639566/pexels-photo-1639566.jpeg" alt="Burger" width="250"/>
+      <h2>Cheese Burger</h2>
+      <p>৳250</p>
+      <button onclick="addToCart('Cheese Burger', 250)">Add to Cart</button>
+    </div>
 
-    <section class="features">
-      <div class="feature">
-        <h3>Quality Food</h3>
-        <p>Fresh ingredients, hygienic preparation.</p>
-      </div>
-      <div class="feature">
-        <h3>Fast Delivery</h3>
-        <p>Quick delivery inside university area.</p>
-      </div>
-      <div class="feature">
-        <h3>Easy Ordering</h3>
-        <p>Simple menu, one-click add to cart (demo).</p>
-      </div>
-    </section>
+    <!-- Pizza -->
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/4109084/pexels-photo-4109084.jpeg" alt="Pizza" width="250"/>
+      <h2>Chicken Pizza</h2>
+      <p>৳450</p>
+      <button onclick="addToCart('Chicken Pizza', 450)">Add to Cart</button>
+    </div>
+
+    <!-- Fries -->
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg" alt="Fries" width="250"/>
+      <h2>Crispy Fries</h2>
+      <p>৳120</p>
+      <button onclick="addToCart('Crispy Fries', 120)">Add to Cart</button>
+    </div>
+
+    <!-- Cold Drink -->
+    <div class="menu-item">
+      <img src="https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg" alt="Coke" width="250"/>
+      <h2>Cold Drink</h2>
+      <p>৳60</p>
+      <button onclick="addToCart('Cold Drink', 60)">Add to Cart</button>
+    </div>
   </main>
 
-  <footer class="footer">
-    <p>© 2025 FastBite — Demo project for CSE309 Assignment-1</p>
-  </footer>
+  <script src="menu.js"></script>
 </body>
 </html>
