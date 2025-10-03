@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <h1>🍔 FastBite Menu</h1>
-    <nav>
+    <nav class="nav">
       <a href="index.html">Home</a>
       <a href="menu.html">Menu</a>
       <a href="cart.html">Cart</a>
@@ -17,10 +17,11 @@
     </nav>
   </header>
 
-  <main class="menu">
+  <main class="menu container">
+
     <!-- Burger -->
     <div class="menu-item">
-      <img src="https://images.pexels.com/photos/1639566/pexels-photo-1639566.jpeg" alt="Burger" width="250"/>
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=800" alt="Burger" />
       <h2>Cheese Burger</h2>
       <p>৳250</p>
       <button onclick="addToCart('Cheese Burger', 250)">Add to Cart</button>
@@ -28,7 +29,7 @@
 
     <!-- Pizza -->
     <div class="menu-item">
-      <img src="https://images.pexels.com/photos/4109084/pexels-photo-4109084.jpeg" alt="Pizza" width="250"/>
+      <img src="https://images.unsplash.com/photo-1601924582971-d57e6c5f9c5d?w=800" alt="Pizza" />
       <h2>Chicken Pizza</h2>
       <p>৳450</p>
       <button onclick="addToCart('Chicken Pizza', 450)">Add to Cart</button>
@@ -36,7 +37,7 @@
 
     <!-- Fries -->
     <div class="menu-item">
-      <img src="https://images.pexels.com/photos/1893555/pexels-photo-1893555.jpeg" alt="Fries" width="250"/>
+      <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=800" alt="Fries" />
       <h2>Crispy Fries</h2>
       <p>৳120</p>
       <button onclick="addToCart('Crispy Fries', 120)">Add to Cart</button>
@@ -44,12 +45,17 @@
 
     <!-- Cold Drink -->
     <div class="menu-item">
-      <img src="https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg" alt="Coke" width="250"/>
+      <img src="https://images.unsplash.com/photo-1617196034825-8f77a89c18d5?w=800" alt="Coke" />
       <h2>Cold Drink</h2>
       <p>৳60</p>
       <button onclick="addToCart('Cold Drink', 60)">Add to Cart</button>
     </div>
+
   </main>
+
+  <footer class="footer">
+    <p>© 2025 FastBite. All rights reserved.</p>
+  </footer>
 
   <script src="menu.js"></script>
 </body>
