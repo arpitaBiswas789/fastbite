@@ -1,0 +1,29 @@
+Project Name: FastBite – Online Fast Food Store
+Goal: Build a demo fast food eCommerce pre-launch site for assignment submission.
+
+Target Audience:
+- University students and nearby office workers.
+
+Key Features:
+- Home page with banner and Order Now button.
+- Menu page with product cards (image, name, price, Add to Cart).
+- Cart page using localStorage (demo).
+- Contact page with simple form (no backend).
+
+Tools:
+- HTML, CSS, JavaScript (client-side only)
+- Host on Vercel or GitHub Pages.
+
+Development Timeline:
+- Day 1: Design layout + create HTML skeleton.
+- Day 2: Implement menu + add-to-cart (localStorage).
+- Day 3: Test and deploy to Vercel; prepare planning worksheet and feedback.
+
+How to deploy (quick):
+1. Create a GitHub repo with these files.
+2. Go to vercel.com → Import Project → Connect GitHub → Select repo → Deploy.
+3. Copy the generated live URL and submit as "working eCommerce site link".
+
+Notes:
+- This is a demo (pre-launch). No payment gateway or backend is included.
+- Teacher requested a working site link + planning worksheet + feedback. Submitting code repository is optional but recommended so teacher can see your work.

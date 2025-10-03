@@ -1,0 +1,21 @@
+a) Why is this assignment important?
+This assignment teaches practical steps of building and deploying a web application that resembles a real eCommerce site. It helps connect theoretical knowledge with real-world development and planning.
+
+b) Which skills are acquired while doing this assignment?
+- Web development basics (HTML, CSS, JavaScript)
+- Project planning and documentation
+- Using version control (GitHub) and deployment (Vercel)
+- Basic UX thinking and organizing product information
+
+c) Business Plan (Business Model Canvas - FastBite)
+- Key Partners: Food suppliers, local delivery riders, packaging vendors.
+- Key Activities: Preparing menu, accepting orders, delivering food, marketing.
+- Value Proposition: Affordable, fast, and tasty meals targeted to students and busy workers.
+- Customer Relationships: Quick online ordering, occasional discounts and offers.
+- Channels: Website, social media pages, campus flyers.
+- Customer Segments: University students, staff, nearby offices.
+- Cost Structure: Food cost, delivery fees, packaging, marketing.
+- Revenue Streams: Product sales, delivery fees, occasional combo offers.
+
+d) Overall Feedback
+The assignment is practical and motivating. It helped me understand how to plan features and deploy a small web project. For future improvements, adding a simple backend and real payment integration would make the demo more realistic.
